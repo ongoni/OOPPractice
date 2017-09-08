@@ -17,6 +17,7 @@ namespace OOPPractice {
                 }
             }
 
+            list.Show();
             int counter = 1;
             foreach (var item in list) {
                 if (counter == k) {
@@ -24,10 +25,12 @@ namespace OOPPractice {
                     counter = 0;
                 }
                 counter++;
+                
                 if (list.Count == 1) break;
             }
             
-            Console.WriteLine("Not deleted element - " + list.First);
+            Console.WriteLine();
+            list.Show();
         }
         
     }

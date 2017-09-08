@@ -60,14 +60,14 @@ namespace OOPPractice.CountingRhyme {
 
         public void Show() {
             Node current = Head;
-            while (current.Next != Head) {
-                Console.Write(current.Value);
+            do {
+                Console.Write(current.Value + " ");
                 current = current.Next;
-            }
+            } while (current != Head) ;
         }
  
-        IEnumerator IEnumerable.GetEnumerator()
-        {
+        IEnumerator IEnumerable.GetEnumerator() {
+            int stepCounter = 0;
             Node current = Head;
             do
             {
@@ -76,8 +76,10 @@ namespace OOPPractice.CountingRhyme {
                     yield return current.Value;
                     current = current.Next;
                 }
+
+                stepCounter++;
             }
-            while (true);
+            while (stepCounter != 100);
         }
 
     }
