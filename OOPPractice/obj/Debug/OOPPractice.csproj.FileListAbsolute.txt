@@ -3,3 +3,8 @@ C:\Users\ongoni\RiderProjects\OOPPractice\OOPPractice\bin\Debug\OOPPractice.exe
 C:\Users\ongoni\RiderProjects\OOPPractice\OOPPractice\bin\Debug\OOPPractice.pdb
 C:\Users\ongoni\RiderProjects\OOPPractice\OOPPractice\obj\Debug\OOPPractice.exe
 C:\Users\ongoni\RiderProjects\OOPPractice\OOPPractice\obj\Debug\OOPPractice.pdb
+C:\Users\krivonozhkinam\RiderProjects\OOPPractice\OOPPractice\bin\Debug\OOPPractice.exe
+C:\Users\krivonozhkinam\RiderProjects\OOPPractice\OOPPractice\bin\Debug\OOPPractice.pdb
+C:\Users\krivonozhkinam\RiderProjects\OOPPractice\OOPPractice\obj\Debug\OOPPractice.csprojResolveAssemblyReference.cache
+C:\Users\krivonozhkinam\RiderProjects\OOPPractice\OOPPractice\obj\Debug\OOPPractice.exe
+C:\Users\krivonozhkinam\RiderProjects\OOPPractice\OOPPractice\obj\Debug\OOPPractice.pdb
