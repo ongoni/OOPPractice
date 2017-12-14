@@ -53,6 +53,12 @@
     <Compile Include="Patterns\AbstractFactory\Factories\HeroFactory.cs" />
     <Compile Include="Patterns\AbstractFactory\Factories\MageFactory.cs" />
     <Compile Include="Patterns\AbstractFactory\Factories\RogueFactory.cs" />
+    <Compile Include="Patterns\Adapter\AdaptedTransport\HorseTransportAdapter.cs" />
+    <Compile Include="Patterns\Adapter\Animal\Animal.cs" />
+    <Compile Include="Patterns\Adapter\Animal\Horse.cs" />
+    <Compile Include="Patterns\Adapter\Transport\HorseAndCart.cs" />
+    <Compile Include="Patterns\Adapter\Transport\Transport.cs" />
+    <Compile Include="Patterns\Adapter\Traveler.cs" />
     <Compile Include="Patterns\Tasks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

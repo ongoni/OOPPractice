@@ -3,6 +3,10 @@ using System.IO;
 using OOPPractice.CountingRhyme;
 using OOPPractice.Patterns.AbstractFactory;
 using OOPPractice.Patterns.AbstractFactory.Factories;
+using OOPPractice.Patterns.Adapter;
+using OOPPractice.Patterns.Adapter.AdaptedTransport;
+using OOPPractice.Patterns.Adapter.Animal;
+using OOPPractice.Patterns.Adapter.Transport;
 
 namespace OOPPractice.Patterns {
 
@@ -47,7 +51,13 @@ namespace OOPPractice.Patterns {
         }
 
         public static void adapter() {
+            Traveler traveler = new Traveler();
+            HorseAndCart horseAndCart = new HorseAndCart();
+            traveler.Travel(horseAndCart);
             
+            Horse horse = new Horse();
+            Transport horseTransport = new HorseTransportAdapter(horse);
+            traveler.Travel(horseTransport);
         }
 
         public static void builder() {
