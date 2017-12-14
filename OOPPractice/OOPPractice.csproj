@@ -43,6 +43,17 @@
   <ItemGroup>
     <Compile Include="CountingRhyme\LoopedDoubleLinkedList.cs" />
     <Compile Include="CountingRhyme\Node.cs" />
+    <Compile Include="Patterns\AbstractFactory\Hero.cs" />
+    <Compile Include="Patterns\AbstractFactory\Movements\Movement.cs" />
+    <Compile Include="Patterns\AbstractFactory\Movements\RunMovement.cs" />
+    <Compile Include="Patterns\AbstractFactory\Movements\TeleportationMovement.cs" />
+    <Compile Include="Patterns\AbstractFactory\Weapons\Dagger.cs" />
+    <Compile Include="Patterns\AbstractFactory\Weapons\MagicStaff.cs" />
+    <Compile Include="Patterns\AbstractFactory\Weapons\Weapon.cs" />
+    <Compile Include="Patterns\AbstractFactory\Factories\HeroFactory.cs" />
+    <Compile Include="Patterns\AbstractFactory\Factories\MageFactory.cs" />
+    <Compile Include="Patterns\AbstractFactory\Factories\RogueFactory.cs" />
+    <Compile Include="Patterns\Tasks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
