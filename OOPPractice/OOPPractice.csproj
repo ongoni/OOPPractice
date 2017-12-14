@@ -59,6 +59,14 @@
     <Compile Include="Patterns\Adapter\Transport\HorseAndCart.cs" />
     <Compile Include="Patterns\Adapter\Transport\Transport.cs" />
     <Compile Include="Patterns\Adapter\Traveler.cs" />
+    <Compile Include="Patterns\Builder\Builder\DrakonidMagicStaffBuilder.cs" />
+    <Compile Include="Patterns\Builder\Builder\FireMagicStaffBuilder.cs" />
+    <Compile Include="Patterns\Builder\Builder\MagicStaffBuilder.cs" />
+    <Compile Include="Patterns\Builder\Constituens\ArcaneDust.cs" />
+    <Compile Include="Patterns\Builder\Constituens\MagicArtifact.cs" />
+    <Compile Include="Patterns\Builder\Constituens\Staff.cs" />
+    <Compile Include="Patterns\Builder\Mage.cs" />
+    <Compile Include="Patterns\Builder\MagicStaff\MagicStaff.cs" />
     <Compile Include="Patterns\Tasks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

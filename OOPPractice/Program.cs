@@ -7,7 +7,10 @@ namespace OOPPractice {
         public static void Main(string[] args) {
 //            Tasks.countingRhyme();
 //            Tasks.abstractFactory();
-            Tasks.adapter();
+//            Tasks.adapter();
+//            Tasks.builder();
+            Tasks.builder();
+            
         }
         
     }

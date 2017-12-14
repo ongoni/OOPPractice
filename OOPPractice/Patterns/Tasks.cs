@@ -7,6 +7,9 @@ using OOPPractice.Patterns.Adapter;
 using OOPPractice.Patterns.Adapter.AdaptedTransport;
 using OOPPractice.Patterns.Adapter.Animal;
 using OOPPractice.Patterns.Adapter.Transport;
+using OOPPractice.Patterns.Builder;
+using OOPPractice.Patterns.Builder.Builder;
+using OOPPractice.Patterns.Builder.MagicStaff;
 
 namespace OOPPractice.Patterns {
 
@@ -61,7 +64,13 @@ namespace OOPPractice.Patterns {
         }
 
         public static void builder() {
+            Mage mage = new Mage();
             
+            MagicStaff fireMagicStaff = mage.CreateMagicStaff(new FireMagicStaffBuilder());
+            MagicStaff drakonidMagicStaff = mage.CreateMagicStaff(new DrakonidMagicStaffBuilder());
+            
+            Console.WriteLine(fireMagicStaff);
+            Console.WriteLine(drakonidMagicStaff);
         }
 
         public static void decorator() {
