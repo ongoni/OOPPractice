@@ -1,5 +1,4 @@
-﻿using System;
-using OOPPractice.Patterns;
+﻿using OOPPractice.Patterns;
 
 namespace OOPPractice {
 
@@ -7,7 +6,8 @@ namespace OOPPractice {
 
         public static void Main(string[] args) {
 //            Tasks.countingRhyme();
-            Tasks.abstractFactory();
+//            Tasks.abstractFactory();
+            Tasks.adapter();
         }
         
     }
