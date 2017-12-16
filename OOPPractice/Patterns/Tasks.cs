@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 using System.IO;
 using OOPPractice.CountingRhyme;
 using OOPPractice.Patterns.AbstractFactory;
@@ -10,6 +11,8 @@ using OOPPractice.Patterns.Adapter.Transport;
 using OOPPractice.Patterns.Builder;
 using OOPPractice.Patterns.Builder.Builder;
 using OOPPractice.Patterns.Builder.MagicStaff;
+using OOPPractice.Patterns.Decorator.Decorators;
+using OOPPractice.Patterns.Decorator.Weapons;
 
 namespace OOPPractice.Patterns {
 
@@ -74,7 +77,21 @@ namespace OOPPractice.Patterns {
         }
 
         public static void decorator() {
+            MeleeWeapon sword = new Sword();
+            Console.WriteLine(sword);
+            sword = new EnchantedMeleeWeapon(sword);
+            Console.WriteLine(sword);
+            sword = new SharpenedMeleeWeapon(sword);
+            Console.WriteLine(sword);
             
+            MeleeWeapon dagger = new Dagger();
+            Console.WriteLine(dagger);
+            dagger = new EnchantedMeleeWeapon(dagger);
+            Console.WriteLine(dagger);
+            dagger = new OiledMeleeWeapon(dagger);
+            Console.WriteLine(dagger);
+            dagger = new SharpenedMeleeWeapon(dagger);
+            Console.WriteLine(dagger);
         }
 
         public static void facade() {

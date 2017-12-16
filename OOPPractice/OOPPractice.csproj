@@ -67,12 +67,25 @@
     <Compile Include="Patterns\Builder\Constituens\Staff.cs" />
     <Compile Include="Patterns\Builder\Mage.cs" />
     <Compile Include="Patterns\Builder\MagicStaff\MagicStaff.cs" />
+    <Compile Include="Patterns\Decorator\Decorators\EnchantedMeleeWeapon.cs" />
+    <Compile Include="Patterns\Decorator\Decorators\OiledMeleeWeapon.cs" />
+    <Compile Include="Patterns\Decorator\Decorators\SharpenedMeleeWeapon.cs" />
+    <Compile Include="Patterns\Decorator\Decorators\MeleeWeaponDecorator.cs" />
+    <Compile Include="Patterns\Decorator\Weapons\Dagger.cs" />
+    <Compile Include="Patterns\Decorator\Weapons\Sword.cs" />
+    <Compile Include="Patterns\Decorator\Weapons\MeleeWeapon.cs" />
     <Compile Include="Patterns\Tasks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="input.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Patterns\Facade" />
+    <Folder Include="Patterns\Flyweight" />
+    <Folder Include="Patterns\Singleton" />
+    <Folder Include="Patterns\Strategy" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
