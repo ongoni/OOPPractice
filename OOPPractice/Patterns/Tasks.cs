@@ -13,6 +13,7 @@ using OOPPractice.Patterns.Builder.Builder;
 using OOPPractice.Patterns.Builder.MagicStaff;
 using OOPPractice.Patterns.Decorator.Decorators;
 using OOPPractice.Patterns.Decorator.Weapons;
+using OOPPractice.Patterns.Facade.Specialists.Government;
 
 namespace OOPPractice.Patterns {
 
@@ -95,7 +96,9 @@ namespace OOPPractice.Patterns {
         }
 
         public static void facade() {
-            
+            King king = new King();
+            king.OrderToStartCrusade();
+            king.OrderToStopCrusade();
         }
 
         public static void flyWeight() {

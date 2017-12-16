@@ -74,6 +74,15 @@
     <Compile Include="Patterns\Decorator\Weapons\Dagger.cs" />
     <Compile Include="Patterns\Decorator\Weapons\Sword.cs" />
     <Compile Include="Patterns\Decorator\Weapons\MeleeWeapon.cs" />
+    <Compile Include="Patterns\Facade\AbstractEntities\Crusade.cs" />
+    <Compile Include="Patterns\Facade\AbstractEntities\Equipment.cs" />
+    <Compile Include="Patterns\Facade\Army\Soldier.cs" />
+    <Compile Include="Patterns\Facade\Specialists\Government\King.cs" />
+    <Compile Include="Patterns\Facade\Specialists\Government\MilitaryAdviser.cs" />
+    <Compile Include="Patterns\Facade\Specialists\MilitaryInstructor.cs" />
+    <Compile Include="Patterns\Facade\Specialists\Recruiter.cs" />
+    <Compile Include="Patterns\Facade\Specialists\Trader.cs" />
+    <Compile Include="Patterns\Facade\UsualPeople\Recruit.cs" />
     <Compile Include="Patterns\Tasks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -82,7 +91,6 @@
     <Content Include="input.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Patterns\Facade" />
     <Folder Include="Patterns\Flyweight" />
     <Folder Include="Patterns\Singleton" />
     <Folder Include="Patterns\Strategy" />

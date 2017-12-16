@@ -9,8 +9,8 @@ namespace OOPPractice {
 //            Tasks.abstractFactory();
 //            Tasks.adapter();
 //            Tasks.builder();
-            Tasks.decorator();
-//            Tasks.facade();
+//            Tasks.decorator();
+            Tasks.facade();
 //            Tasks.flyWeight();
 //            Tasks.singleton();
 //            Tasks.strategy();
