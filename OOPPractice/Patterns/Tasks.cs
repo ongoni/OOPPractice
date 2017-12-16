@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Data;
 using System.IO;
 using OOPPractice.CountingRhyme;
 using OOPPractice.Patterns.AbstractFactory;
@@ -14,6 +13,7 @@ using OOPPractice.Patterns.Builder.MagicStaff;
 using OOPPractice.Patterns.Decorator.Decorators;
 using OOPPractice.Patterns.Decorator.Weapons;
 using OOPPractice.Patterns.Facade.Specialists.Government;
+using OOPPractice.Patterns.Singleton;
 
 namespace OOPPractice.Patterns {
 
@@ -106,7 +106,8 @@ namespace OOPPractice.Patterns {
         }
 
         public static void singleton() {
-            
+            Tantumwald tantumwald = Tantumwald.GetInstance();
+            Console.WriteLine(tantumwald);
         }
 
         public static void strategy() {

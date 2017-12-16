@@ -4,6 +4,7 @@ namespace OOPPractice.Patterns.Facade.Specialists.Government {
 
     public class King {
 
+        public string Name { get; set; }
         protected MilitaryAdviser _militaryAdviser;
         protected Crusade _crusade;
         
