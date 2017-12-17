@@ -11,10 +11,9 @@ namespace OOPPractice {
 //            Tasks.builder();
 //            Tasks.decorator();
 //            Tasks.facade();
-            Tasks.flyWeight();
+//            Tasks.flyWeight();
 //            Tasks.singleton();
-//            Tasks.strategy();
-            
+            Tasks.strategy();
         }
         
     }

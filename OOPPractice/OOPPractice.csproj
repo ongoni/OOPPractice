@@ -43,12 +43,14 @@
   <ItemGroup>
     <Compile Include="CountingRhyme\LoopedDoubleLinkedList.cs" />
     <Compile Include="CountingRhyme\Node.cs" />
+    <Compile Include="Patterns\AbstractFactory\Factories\WarriorFactory.cs" />
     <Compile Include="Patterns\AbstractFactory\Hero.cs" />
     <Compile Include="Patterns\AbstractFactory\Movements\Movement.cs" />
     <Compile Include="Patterns\AbstractFactory\Movements\RunMovement.cs" />
     <Compile Include="Patterns\AbstractFactory\Movements\TeleportationMovement.cs" />
     <Compile Include="Patterns\AbstractFactory\Weapons\Dagger.cs" />
     <Compile Include="Patterns\AbstractFactory\Weapons\MagicStaff.cs" />
+    <Compile Include="Patterns\AbstractFactory\Weapons\Sword.cs" />
     <Compile Include="Patterns\AbstractFactory\Weapons\Weapon.cs" />
     <Compile Include="Patterns\AbstractFactory\Factories\HeroFactory.cs" />
     <Compile Include="Patterns\AbstractFactory\Factories\MageFactory.cs" />
@@ -88,15 +90,17 @@
     <Compile Include="Patterns\Flyweight\Coins\CoinFactory.cs" />
     <Compile Include="Patterns\Flyweight\Coins\CoinType.cs" />
     <Compile Include="Patterns\Singleton\Tantumwald.cs" />
+    <Compile Include="Patterns\Strategy\Squads\AdventureSquad.cs" />
+    <Compile Include="Patterns\Strategy\Strategies\AttackingStrategy.cs" />
+    <Compile Include="Patterns\Strategy\Strategies\DefensiveStrategy.cs" />
+    <Compile Include="Patterns\Strategy\Strategies\RetreatStrategy.cs" />
+    <Compile Include="Patterns\Strategy\Strategies\Strategy.cs" />
     <Compile Include="Patterns\Tasks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="input.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Patterns\Strategy" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

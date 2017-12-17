@@ -15,9 +15,10 @@ using OOPPractice.Patterns.Builder.MagicStaff;
 using OOPPractice.Patterns.Decorator.Decorators;
 using OOPPractice.Patterns.Decorator.Weapons;
 using OOPPractice.Patterns.Facade.Specialists.Government;
-using OOPPractice.Patterns.Flyweight;
 using OOPPractice.Patterns.Flyweight.Classes;
 using OOPPractice.Patterns.Singleton;
+using OOPPractice.Patterns.Strategy.Squads;
+using OOPPractice.Patterns.Strategy.Strategies;
 
 namespace OOPPractice.Patterns {
 
@@ -124,7 +125,15 @@ namespace OOPPractice.Patterns {
         }
 
         public static void strategy() {
+            AdventureSquad squad = new AdventureSquad();
             
+            Strategy.Strategies.Strategy attack = new AttackingStrategy();
+            Strategy.Strategies.Strategy defense = new DefensiveStrategy();
+            Strategy.Strategies.Strategy retreat = new RetreatStrategy();
+            
+            squad.Apply(attack);
+            squad.Apply(defense);
+            squad.Apply(retreat);
         }
         
     }
