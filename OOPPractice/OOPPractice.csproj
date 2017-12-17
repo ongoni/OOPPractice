@@ -83,6 +83,10 @@
     <Compile Include="Patterns\Facade\Specialists\Recruiter.cs" />
     <Compile Include="Patterns\Facade\Specialists\Trader.cs" />
     <Compile Include="Patterns\Facade\UsualPeople\Recruit.cs" />
+    <Compile Include="Patterns\Flyweight\Coffers.cs" />
+    <Compile Include="Patterns\Flyweight\Coins\Coin.cs" />
+    <Compile Include="Patterns\Flyweight\Coins\CoinFactory.cs" />
+    <Compile Include="Patterns\Flyweight\Coins\CoinType.cs" />
     <Compile Include="Patterns\Singleton\Tantumwald.cs" />
     <Compile Include="Patterns\Tasks.cs" />
     <Compile Include="Program.cs" />
@@ -92,7 +96,6 @@
     <Content Include="input.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Patterns\Flyweight" />
     <Folder Include="Patterns\Strategy" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

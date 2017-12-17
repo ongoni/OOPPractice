@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics.PerformanceData;
 using System.IO;
 using OOPPractice.CountingRhyme;
 using OOPPractice.Patterns.AbstractFactory;
@@ -13,6 +15,8 @@ using OOPPractice.Patterns.Builder.MagicStaff;
 using OOPPractice.Patterns.Decorator.Decorators;
 using OOPPractice.Patterns.Decorator.Weapons;
 using OOPPractice.Patterns.Facade.Specialists.Government;
+using OOPPractice.Patterns.Flyweight;
+using OOPPractice.Patterns.Flyweight.Classes;
 using OOPPractice.Patterns.Singleton;
 
 namespace OOPPractice.Patterns {
@@ -96,17 +100,26 @@ namespace OOPPractice.Patterns {
         }
 
         public static void facade() {
-            King king = new King();
+            King king = new King("Kojima I");
             king.OrderToStartCrusade();
             king.OrderToStopCrusade();
         }
 
         public static void flyWeight() {
+            Coffers coffers = new Coffers();
+            for (int i = 0; i < 100; i++) {
+                coffers.Replenish("Gold", 5);
+                coffers.Replenish("Silver", 10);
+                coffers.Replenish("Copper", 15);
+            }
             
+            coffers.Show();
         }
 
         public static void singleton() {
             Tantumwald tantumwald = Tantumwald.GetInstance();
+            Console.WriteLine(tantumwald);
+            tantumwald.CurrentKing = new King("Jonson I");
             Console.WriteLine(tantumwald);
         }
 

@@ -1,13 +1,15 @@
-﻿namespace OOPPractice.Patterns.Singleton {
+﻿using OOPPractice.Patterns.Facade.Specialists.Government;
+
+namespace OOPPractice.Patterns.Singleton {
 
     public class Tantumwald {
         
         private static readonly Tantumwald _instance = new Tantumwald();
 
-        public string CurrentKing { get; set; }
+        public King CurrentKing { get; set; }
 
         private Tantumwald() {
-            CurrentKing = "Kojima I";
+            CurrentKing = new King("Kojima I");
         }
 
         public static Tantumwald GetInstance() {
@@ -15,7 +17,7 @@
         }
 
         public override string ToString() {
-            return "Tantumwald Kingdom, king - " + CurrentKing;
+            return "Tantumwald Kingdom, king - " + CurrentKing.Name;
         }
 
     }

@@ -7,6 +7,10 @@ namespace OOPPractice.Patterns.Facade.Specialists.Government {
         public string Name { get; set; }
         protected MilitaryAdviser _militaryAdviser;
         protected Crusade _crusade;
+
+        public King(string name) {
+            Name = name;
+        }
         
         public void OrderToStartCrusade() {
             _militaryAdviser = new MilitaryAdviser();
