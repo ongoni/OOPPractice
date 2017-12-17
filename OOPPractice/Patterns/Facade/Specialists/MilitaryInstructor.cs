@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using OOPPractice.Patterns.Facade.Army;
 using OOPPractice.Patterns.Facade.UsualPeople;
 
 namespace OOPPractice.Patterns.Facade.Specialists {

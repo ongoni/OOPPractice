@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using OOPPractice.Patterns.Facade.Army;
 
 namespace OOPPractice.Patterns.Facade.AbstractEntities {
 

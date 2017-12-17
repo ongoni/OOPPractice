@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.PerformanceData;
 using System.IO;
 using OOPPractice.CountingRhyme;
 using OOPPractice.Patterns.AbstractFactory;
@@ -15,7 +13,7 @@ using OOPPractice.Patterns.Builder.MagicStaff;
 using OOPPractice.Patterns.Decorator.Decorators;
 using OOPPractice.Patterns.Decorator.Weapons;
 using OOPPractice.Patterns.Facade.Specialists.Government;
-using OOPPractice.Patterns.Flyweight.Classes;
+using OOPPractice.Patterns.Flyweight;
 using OOPPractice.Patterns.Singleton;
 using OOPPractice.Patterns.Strategy.Squads;
 using OOPPractice.Patterns.Strategy.Strategies;

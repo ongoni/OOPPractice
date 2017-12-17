@@ -1,6 +1,4 @@
-﻿using OOPPractice.Patterns.Flyweight.Classes;
-
-namespace OOPPractice.Patterns.Flyweight.Coins {
+﻿namespace OOPPractice.Patterns.Flyweight.Coins {
 
     public class Coin {
 

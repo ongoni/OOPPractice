@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OOPPractice.Patterns.Flyweight.Classes {
+namespace OOPPractice.Patterns.Flyweight.Coins {
 
     public class CoinType {
 

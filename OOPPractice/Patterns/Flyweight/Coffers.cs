@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using OOPPractice.Patterns.Flyweight.Coins;
 
-namespace OOPPractice.Patterns.Flyweight.Classes {
+namespace OOPPractice.Patterns.Flyweight {
 
     public class Coffers {
 

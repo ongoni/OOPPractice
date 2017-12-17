@@ -1,4 +1,4 @@
-﻿namespace OOPPractice.Patterns.Facade {
+﻿namespace OOPPractice.Patterns.Facade.Army {
 
     public class Soldier { }
 
